@@ -4,9 +4,14 @@ body {
 
 #ghost{
     height: 300px;
-    box-shadow: 20px 10px 20px black, 40px 20px 40px yellow;
-   
+    box-shadow: 20px 10px 20px black, 40px 20px 40px yellow;  
 }
+#ghost2{
+    height: 300px;
+    box-shadow: 20px 10px 20px black, 40px 20px 40px yellow;  
+    float: right;
+}
+
 .footer {
     text-align: center;
     padding: 3px;
@@ -24,4 +29,8 @@ body {
   table:nth-child(odd){
       background-color:black;
       color:yellow;
+  }
+
+  .senter{
+      text-align: center;
   }
