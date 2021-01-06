@@ -1,0 +1,27 @@
+body {
+    background-color: yellow;
+  }
+
+#ghost{
+    height: 300px;
+    box-shadow: 20px 10px 20px black, 40px 20px 40px yellow;
+   
+}
+.footer {
+    text-align: center;
+    padding: 3px;
+    background-color: black;
+    color: yellow;
+            border: 5px outset black;
+  }
+
+  a:hover{
+    background-color: yellow;
+  }
+  #ghost:active{
+      height: 400px;
+  }
+  table:nth-child(odd){
+      background-color:black;
+      color:yellow;
+  }
