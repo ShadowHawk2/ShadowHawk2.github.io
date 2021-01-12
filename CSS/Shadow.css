@@ -1,6 +1,3 @@
-body {
-    background-color: yellow;
-  }
 
 #ghost{
     height: 300px;
@@ -27,10 +24,36 @@ body {
       height: 400px;
   }
   table:nth-child(odd){
-      background-color:black;
-      color:yellow;
+      background-color:rgb(143, 27, 201);
+      color:black;
   }
-
+*/
   .senter{
       text-align: center;
+  }
+
+  /*Top Nav */
+
+  .topnav {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: purple;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: purple;
+    color: white;
   }
