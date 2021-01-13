@@ -1,11 +1,13 @@
+/* Footer */
 
 #ghost{
     height: 300px;
     box-shadow: 20px 10px 20px black, 40px 20px 40px yellow;  
 }
 #ghost2{
-    height: 300px;
-    box-shadow: 20px 10px 20px black, 40px 20px 40px yellow;  
+    height: 157px;
+    width: 120px;
+    box-shadow: 20px 10px 20px black;  
     float: right;
 }
 
@@ -24,7 +26,7 @@
       height: 400px;
   }
   table:nth-child(odd){
-      background-color:rgb(143, 27, 201);
+      background-color: lightblue;
       color:black;
   }
 */
@@ -57,3 +59,24 @@
     background-color: purple;
     color: white;
   }
+
+  /* WebPage */
+
+  body {
+    background-color: gray;
+  }
+
+
+  /* Divs */
+
+  .myDiv {
+    border: 5px outset black;
+    background-color: lightblue;
+	   margin: 25px 700px 5px 15px;
+ }
+
+ .topDiv{
+   border: 5px outset gray;
+   background-color: rgb(143, 27, 201);
+   margin: 25px 700px 5px 15px;
+ }
