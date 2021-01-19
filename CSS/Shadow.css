@@ -20,11 +20,12 @@
   }
 
   a:hover{
-    background-color: yellow;
+    background-color:gray;
   }
   #ghost:active{
       height: 400px;
   }
+  /*
   table:nth-child(odd){
       background-color: lightblue;
       color:black;
@@ -66,13 +67,16 @@
     background-color: gray;
   }
 
+  a:link{
+    color: Purple;
+  }
 
   /* Divs */
 
   .myDiv {
-    border: 5px outset black;
-    background-color: lightblue;
-	   margin: 25px 700px 5px 15px;
+    border: 4px outset purple;
+    background-color: black;
+     margin: 25px 700px 5px 15px;
  }
 
  .topDiv{
@@ -80,3 +84,59 @@
    background-color: rgb(143, 27, 201);
    margin: 25px 700px 5px 15px;
  }
+
+ h1{
+   color: white;
+ }
+ h2{
+   color: white;
+ }
+ h3{
+   color: white;
+ }
+ p{
+   color: white;
+ }
+ li{
+   color: white;
+ }
+
+
+ /* Gammel oppgåve */
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 50%;
+  color: white;
+  background-color: black;
+  padding: 20px right;
+  margin: 25px 700px 5px 15px;
+}
+	  
+td, th {
+  border: 2px solid white;
+  text-align: left;
+  padding: 8px;
+}
+	  
+	  .serif {
+  font-family: "Times New Roman", Times, serif;
+}
+
+/* Grid */
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 2fr 6fr 2fr;
+}
+
+.grid-item {
+  padding: 20px;
+}
+
+.item1 { grid-area: header; }
+.item2 { grid-area: menu; }
+.item3 { grid-area: main; }
+.item4 { grid-area: right; }
+.item5 { grid-area: footer; }
