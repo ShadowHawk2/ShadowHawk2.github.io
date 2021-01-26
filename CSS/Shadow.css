@@ -37,6 +37,8 @@
 
   /*Top Nav */
 
+body{margin:0;}
+
   .topnav {
     overflow: hidden;
     background-color: #333;
@@ -45,6 +47,14 @@
     width: 100%;
   }
   
+  .main {
+    padding: 16px;
+    margin-top: 30px;
+    border: 4px outset purple;
+    background-color: black;
+    margin: 30px 700px 5px 15px;
+  }
+
   .topnav a {
     float: left;
     color: #f2f2f2;
