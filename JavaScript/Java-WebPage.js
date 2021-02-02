@@ -1,22 +1,22 @@
 var header = document.getElementById("header");
 
-var date = new date();
+var date = new Date();
 var hours = date.getHours();
 
 if(hours >= 5 && hours < 12){
-    header.innerText = "God Morgon";
+    header.innerText = "God Morgon, FBI";
 }
 
-if(hours >= 13 && hours < 16){
-    header.innerText = "God dag";
+if(hours >= 12 && hours < 16){
+    header.innerText = "God dag, FBI";
 }
 
-if(hours >= 17 && hours < 19){
-    header.innerText = "God Ettermiddag";
+if(hours >= 16 && hours < 19){
+    header.innerText = "God Ettermiddag, FBI";
 }
 
-if(hours >= 20 && hours < 23.59){
-    header.innerText = "God Kveld";
+if(hours >= 19 && hours < 23.59){
+    header.innerText = "God Kveld, FBI";
 }
 
 /*

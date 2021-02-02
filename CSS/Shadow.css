@@ -2,25 +2,35 @@
 
 #ghost{
     height: 300px;
-    box-shadow: 20px 10px 20px purple, 30px 20px 40px blue;  
+    box-shadow: 20px 10px 20px blue, 30px 20px 40px blue;  
 }
 #ghost2{
     height: 300px;
-    box-shadow: -20px 10px 20px purple, -30px 20px 40px blue;  
+    box-shadow: -20px 10px 20px blue, -30px 20px 40px blue;  
     float: right;
 }
 
 #ghost3{
   height: 300px;
-  box-shadow: 20px 10px 20px blue, 30px 20px 40px purple;  
+  box-shadow: 20px 10px 20px purple, 30px 20px 40px purple;  
 }
 
 #ghost4{
   height: 300px;
-  box-shadow: -20px 10px 20px blue, -30px 20px 40px purple;
+  box-shadow: -20px 10px 20px purple, -30px 20px 40px purple;
   float: right;  
 }
 
+#ghost5{
+  height: 390px;
+  box-shadow: 20px 10px 30px black, 30px 20px 60px purple;  
+}
+
+#ghost6{
+  height: 390px;
+  box-shadow: -20px 10px 30px black, -30px 20px 60px purple;
+  float: right;  
+}
 #ad{
   height: 255px;
   width: 190px;
@@ -47,9 +57,15 @@
   }
 */
   .senter{
+      width: 40%;
       text-align: center;
+      margin: auto;
       margin-top: 30px;
       padding: 20px;
+      border: 4px outset purple;
+      background-color: black;
+     align-self: center;
+
   }
 
   /*Top Nav */
