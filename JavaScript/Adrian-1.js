@@ -1,4 +1,5 @@
 // JavaScript Document
+/*
 var a=5
 var b=10
 console.log(a+b)
@@ -22,3 +23,4 @@ while(i < 21) {
     console.log(i);
     i++;
 }
+*/

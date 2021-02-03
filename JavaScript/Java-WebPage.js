@@ -25,3 +25,10 @@ Dag 13-16
 Ettermiddag 17-19
 Kveld 20-23:59
 */
+
+
+function button_clicked() {
+    var welcome = document.getElementById("welcome")
+    welcome.style.display = "none";
+    welcome.innerText("I")
+}
