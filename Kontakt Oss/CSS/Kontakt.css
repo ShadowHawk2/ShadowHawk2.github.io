@@ -1,0 +1,56 @@
+.Rs p1 {
+    margin: 0;
+    padding: 0;
+    color: red;
+  }
+ 
+  .kontakt1 {
+    padding: 5px;
+  }
+ 
+ .size Input{
+   width: 400px;
+ }
+ 
+  .px {
+    height: 100px;
+  }
+
+  textarea {
+    resize: none;
+    width: 400px;
+  }
+
+  /* Button */
+
+  .button {
+    border: none;
+    color: Green;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+  .button1 {
+      background-color: #4CAF50;
+    }
+
+
+
+
+    /* Div */
+
+.takk {
+    text-align: center;
+    
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+

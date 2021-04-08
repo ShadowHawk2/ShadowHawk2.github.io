@@ -1,0 +1,13 @@
+/* Grid */
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 2fr 6fr 2fr;
+  }
+  
+  
+  .item1 { grid-area: header; }
+  .item2 { grid-area: menu; }
+  .item3 { grid-area: main; }
+  .item4 { grid-area: right; }
+  .item5 { grid-area: footer; }

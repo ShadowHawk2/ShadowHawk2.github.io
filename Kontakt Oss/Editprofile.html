@@ -1,0 +1,102 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Profil - Adrian</title>
+<link rel="stylesheet" href="../CSS/Shadow.css">
+<link rel="stylesheet" href="CSS/Kontakt.css">
+<link rel="icon" href="Images/pngegg.png" type="image/png" sizes="16x16">
+<style>
+
+img {
+    float: right;
+}
+
+</style>
+</head>
+<body>
+
+
+    <div class="topnav">
+		<img src="../Images/Me.png" alt="Me" width="50px" height="50px">
+		<a href="../index.html">Home</a>
+		<a href="../BildeShadow.html">Pictures</a>
+		<a href="../Fag/Games.html">Games</a>
+		<div class="dropdown">
+			<button class="dropFag">Fag 
+			</button>
+			<div class="dropdown-fag">
+			  <a href="../Fag/Konseptutvikling og programmering.html">Konseptutvikling</a>
+			  <a href="../Fag/Produksjon og Historiefortelling.html">Produksjon og Historieforteljing</a>
+			  <a href="../Fag/Teknologiforståelse.html">Teknologiforståelse</a>
+			</div>
+		  </div> 
+		<a href="Kontakt Oss.html">Kontakt Oss</a>
+        <a class="active" href="Editprofile.html">Profil</a>
+	  </div>
+<div class="kontakt1">
+      <h3>Endre Profil</h3>
+      <h5>Alle felter merket med * er påkreved felter.</h5>
+</div>
+
+    <div class="kontakt1 Rs">
+      <form>
+        <p>Fornavn <p1>*</p1></p> 
+        <input type="text" required>
+        <br>
+        <br>
+        <p>Etternavn <p1>*</p1></p>
+        <input type="text" required>
+        <br>
+        <br>
+        <p>Visningsnavn <p1>*</p1></p>
+        <input type="text" required>
+        <br>
+        <br>
+        <p>Fødselsdag <p1>*</p1></p>
+        <input type="date" required>
+        <h5>Eksempel 1989-06-21</h5>
+        <p>Kjønn<p1>*</p1></p>
+        <select name="Velg">
+            <option value="Overskrift">Velg</option>
+            <option value="Mann">Mann</option>
+            <option value="Kvinne">Kvinne</option>
+            <option value="Andre">Andre</option>
+            <option value="Ønsker ikke å oppgi">Ønsker ikke å oppgi</option>
+        </select>
+        <br><br>
+        <label>Skriftfarge</label><br>
+    <select name="fcolor" id="fcolor">
+        <option value="Blue">Blå</option>
+        <option value="Yellow">Gul</option>
+        <option value="Green">Grøn</option>
+        <option value="Purple">Lilla</option>
+        <option value="Red">Rød</option>
+        <option value="Black">Svart</option>
+        <option value="Pink">Rosa</option>
+    </select> <br><br>
+    <input type="button" onclick="changeColor()" value="Endre Skriftfarge">
+    <br><br>
+    <label>Bakgrunnsfarge: </label><br>
+    <select name="bcolor" id="bcolor">
+        <option value="Blue">Blå</option>
+        <option value="Yellow">Gul</option>
+        <option value="Green">Grøn</option>
+        <option value="Purple">Lilla</option>
+        <option value="Red">Rød</option>
+        <option value="Black">Svart</option>
+        <option value="Pink">Rosa</option>        
+    </select><br><br>
+    <input type="button" onclick="changeBackgroundColor()" value="Endre Bakgrunnsfarge">
+    <br><br>
+    <form action="./index.html">
+        <button type="submit" class="button button1">Lagre</button>
+    </form>
+</form>
+
+    </div>
+    <script src="JavaScript/oppg2.js"></script>
+
+</body>
+</html>

@@ -1,4 +1,4 @@
-/* Footer */
+/* Bilder( effekter ) */
 
 #ghost{
     height: 300px;
@@ -36,6 +36,8 @@
   width: 190px;
 }
 
+/* Footer */
+
 .footer {
     text-align: center;
     padding: 3px;
@@ -69,12 +71,7 @@ footer{
   #ghost:active{
       height: 400px;
   }
-  /*
-  table:nth-child(odd){
-      background-color: lightblue;
-      color:black;
-  }
-*/
+
   .senter{
       width: 40%;
       text-align: center;
@@ -87,7 +84,7 @@ footer{
 
   }
 
-  /*Top Nav */
+/*Top Nav */
 
 body{margin:0;}
 
@@ -125,7 +122,7 @@ body{margin:0;}
     color: white;
   }
 
-  /* WebPage */
+/* WebPage */
 
   body {
     margin:auto;
@@ -135,7 +132,7 @@ body{margin:0;}
     color: Purple;
   }
 
-  /* Divs */
+/* Divs */
 
   .myDiv {
     border: 4px outset purple;
@@ -149,24 +146,22 @@ body{margin:0;}
    margin: 25px 700px 5px 15px;
  }
 
- h1{
-   color: white;
- }
+/* Farger */
+
  h2{
    color: white;
  }
- h3{
+
+ .white{
    color: white;
  }
- p{
-   color: white;
- }
+ 
  li{
    color: white;
  }
 
 
- /* Gammel oppgåve */
+ /* Table */
 
 table {
   font-family: arial, sans-serif;
@@ -188,19 +183,6 @@ td, th {
   font-family: "Times New Roman", Times, serif;
 }
 
-/* Grid */
-
-.grid-container {
-  display: grid;
-  grid-template-columns: 2fr 6fr 2fr;
-}
-
-
-.item1 { grid-area: header; }
-.item2 { grid-area: menu; }
-.item3 { grid-area: main; }
-.item4 { grid-area: right; }
-.item5 { grid-area: footer; }
 
 /* Dropdown */
 
@@ -249,12 +231,3 @@ td, th {
 .dropdown:hover .dropdown-fag {
   display: block;
 }
-
-/* Media 
-
-@media screen and (max-width: 600px) {
-  .kol4 {
-    grid-column: span 12;
-  }
-}
-*/
